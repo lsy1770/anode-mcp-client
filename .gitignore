@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output (optional - may want to commit for npm)
+# dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Environment
+.env
+.env.local

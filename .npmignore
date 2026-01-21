@@ -1,0 +1,32 @@
+# Source files
+src/
+tsconfig.json
+
+# Development
+node_modules/
+.git/
+.gitignore
+
+# Test files
+*.test.ts
+*.spec.ts
+__tests__/
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Lock files (keep package-lock.json for reproducible builds)
+yarn.lock
+pnpm-lock.yaml
