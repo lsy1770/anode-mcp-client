@@ -1,4 +1,4 @@
-# @anode/mcp-client
+# @anode177/mcp-client
 
 A TypeScript/JavaScript client for connecting to Anode Android MCP Server.
 
@@ -7,13 +7,13 @@ Enables AI assistants like Claude to control Android devices through the Model C
 ## Installation
 
 ```bash
-npm install @anode/mcp-client
+npm install @anode177/mcp-client
 ```
 
 ## Quick Start
 
 ```typescript
-import { McpClient } from '@anode/mcp-client';
+import { McpClient } from '@anode177/mcp-client';
 
 // Create client
 const client = new McpClient({
@@ -215,7 +215,7 @@ const { isOn, isLocked } = await client.deviceGetScreenState();
 ## Complete Example
 
 ```typescript
-import { McpClient } from '@anode/mcp-client';
+import { McpClient } from '@anode177/mcp-client';
 
 async function automateApp() {
   const client = new McpClient({

@@ -4,7 +4,7 @@
  * A TypeScript/JavaScript client for connecting to Anode Android MCP Server.
  * Supports WebSocket and HTTP/SSE transports.
  *
- * @package @anode/mcp-client
+ * @package @anode177/mcp-client
  */
 interface McpClientConfig {
     /** Server host (IP or hostname) */
